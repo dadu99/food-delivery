@@ -17,7 +17,7 @@
     align-items: center;
     gap: 12px;
     border: 1px solid #a9a9a9;
-    border-rghit: 0;
+    border-right: 0;
     padding: 8px 10px;
     border-radius: 3px 0px 0px 3px;
     cursor: pointer;
@@ -25,10 +25,8 @@
 .sidebar-option.active {
     background-color:#fff0ed;
     border-color: tomato;
-
-
 }
-@media screen (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .sidebar-option p {
         display: none;
     }
